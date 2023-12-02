@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "./Header";
 
 export const metadata: Metadata = {
   title: "Next.js13 Blog",
@@ -13,8 +14,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body>
-        <header>Header</header>
+      <body className="container mx-auto bg-slate-600 text-slate-50">
+        <Header />
         {children}
         <footer>Footer</footer>
       </body>
