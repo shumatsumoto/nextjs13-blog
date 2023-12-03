@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "nextjs",
+      "title": "Learning Nextjs13",
+      "content": "初めての投稿です。",
+      "createdAt": "2023/12/3"
+    },
+    {
+      "id": "Python",
+      "title": "Learning Python",
+      "content": "2番目の投稿です。",
+      "createdAt": "2023/12/4"
+    }
+  ]
+}
