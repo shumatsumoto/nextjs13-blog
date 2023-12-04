@@ -1,5 +1,5 @@
-import ArticleList from "./ArticleList";
 import { getAllArticles } from "@/blogAPI";
+import ArticleList from "./components/ArticleList";
 
 export default async function Home() {
   const articles = await getAllArticles();

@@ -5,6 +5,10 @@ export const getAllArticles = async (): Promise<Article[]> => {
     cache: "force-cache",
   });
 
+  if (!res.ok) {
+    throw new Error("エラーが発生しました。");
+  }
+
   const articles = await res.json();
   return articles;
 };
