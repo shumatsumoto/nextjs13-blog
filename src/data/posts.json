@@ -13,12 +13,6 @@
       "createdAt": "2023/12/4"
     },
     {
-      "id": "data",
-      "title": "Learning Data",
-      "content": "3番目の投稿です。",
-      "createdAt": "2023/12/10"
-    },
-    {
       "id": "science",
       "title": "Learning Science",
       "content": "4番目の投稿です。",
